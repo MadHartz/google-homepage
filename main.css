@@ -32,6 +32,19 @@ body {
       background-color: #f2f2f2;
       padding-block: max-content;
   }
+  ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+  }
+  li{
+      float: left;
+  }
+  li a{
+      display: block;
+      padding: 8px;
+  }
   a{
       text-decoration: none;
       color: black;
@@ -43,6 +56,29 @@ body {
   .footer{
       display: grid;
       grid-template-columns: repeat(2, 1fr);
+  }
+  #navbar{
+      display: grid;
+      grid-row: 1;
+      grid-column: 3/4;
+      align-self: start;
+      justify-self: center;
+  }
+  #Gmail{
+      grid-row: 1;
+      align-self: center;
+  }
+  #Imagens{
+      grid-row: 1;
+      align-self: center;
+  }
+  #Apps{
+      grid-row: 1;
+      align-self: center;
+  }
+  #Account{
+      grid-row: 1;
+      align-self: center;
   }
   #main{
     display: grid;
